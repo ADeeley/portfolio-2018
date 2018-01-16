@@ -19,6 +19,9 @@ p {
   color: #c8c8c8;
   margin: auto 10% auto 10%; }
 
+.project_thumbnail {
+  max-width: 300px; }
+
 .break {
   margin: 0;
   height: 1px;
