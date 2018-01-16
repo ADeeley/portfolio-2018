@@ -15,6 +15,10 @@ body {
 .container {
   color: #fff; }
 
+p {
+  color: #c8c8c8;
+  margin: auto 10% auto 10%; }
+
 .break {
   margin: 0;
   height: 1px;
