@@ -20,6 +20,14 @@ body {
     color: #fff;
 }
 
+p {
+    color: rgb(200, 200, 200);
+    margin: auto 10% auto 10%;
+}
+
+.project_thumbnail {
+    max-width:300px;
+}
 
 .break {
     margin: 0;
@@ -41,4 +49,8 @@ body {
     width: 100%;
     height: 100%;
     min-height: 100%;
+}
+
+.container {
+    margin-bottom: 10%;
 }
