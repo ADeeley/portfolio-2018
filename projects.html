@@ -47,61 +47,90 @@
                     </div>
                 </nav>
             </header>
-            <main role="main" class="container">
-                <h1 class="text-center fancy-title">PROJECTS</h1>
+            <main role="main" class="container w-75">
+                <h1 class="text-center fancy-title text-white">PROJECTS</h1>
                 <p class="text-center lead">A selection of my projects and work so far</p>
-                <div class="row main_inner">
-                    <div class="col-sm-4 thumbnail">
-                        <h5>Book Sales Graph</h5>
-                        <img src="img/project_images/best_selling_authors.png" class="img-fluid img-thumbnail img-thumbnail">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="img/project_images/best_selling_authors.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Books Sold Compared to Books Written</h5>
+                            <p class="card-text">A graph build with D3 to show the relationship between the number of books an author has written to the number of books sold.</p>
+                            <button class="btn btn-primary">Github Source</button>
+                        </div>
                     </div>
-                    <div class="col-sm-4 thumbnail">
-                        <h5>Console Draughts</h5>
-                        <img src="img/project_images/draughts.png" class="img-fluid img-thumbnail">
+                    <div class="card">
+                        <img src="img/project_images/draughts.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Console Draughts</h5>
+                            <p class="card-text">Python implementation of draughts based in the console.</p>
+                            <button class="btn btn-primary">Github Source</button>
+                        </div>
                     </div>
-                    <div class="col-sm-4 thumbnail">
-                        <h5>Makeroom Game</h5>
-                        <img src="img/project_images/makeroom.png" class="img-fluid img-thumbnail">
+                    <div class="card">
+                        <img src="img/project_images/makeroom.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Makeroom</h5>
+                            <p class="card-text">Inspired by a vintage Soviet arcade game I played, the aim of the game is to 
+                                allow the ball to fall to the bottom of the screen. 
+                            </p>
+                            <button class="btn btn-primary">Github Source</button>
+                        </div>
                     </div>
                 </div>
-                    <div class="row">
-                        <div class="col-sm-4 thumbnail">
-                            <h5>Maze Generator</h5>
-                            <img src="img/project_images/maze.png" class="img-fluid img-thumbnail">
-                        </div>
-                        <div class="col-sm-4 thumbnail">
-                            <h5>Simon Says</h5>
-                            <img src="img/project_images/simon.png" class="img-fluid img-thumbnail">
-                        </div>
-                        <div class="col-sm-4 thumbnail">
-                            <h5>The Fisherman</h5>
-                            <img src="img/project_images/the_fisherman.png" class="img-fluid img-thumbnail">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="img/project_images/maze.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Maze Generator</h5>
+                            <p class="card-text">Randomly generates a maze using recursive backtracking.</p>
+                            <button class="btn btn-primary">Github Source</button>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-4 thumbnail">
-                            <h5>Tic Tac Toe</h5>
-                            <img src="img/project_images/tic_tac_toe.png" class="img-fluid img-thumbnail">
-                        </div>
-                        <div class="col-sm-4 thumbnail">
-                            <h5>Twitch Hub</h5>
-                            <img src="img/project_images/twitch_hub.png" class="img-fluid img-thumbnail">
-                        </div>
-                        <div class="col-sm-4 thumbnail">
-                            <h5>USA GDP Graph</h5>
-                            <img src="img/project_images/USA_GDP.png" class="img-fluid img-thumbnail">
+                    <div class="card">
+                        <img src="img/project_images/simon.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Simon Game</h5>
+                            <p class="card-text">Repeat the pattern in this colour matching version of Simon Says.</p>
+                            <button class="btn btn-primary">Github Source</button>
                         </div>
                     </div>
-                    <div class="row">
-
-                        <div class="col-sm-4 thumbnail">
-                            <h5>Birthday Problem</h5>
-                            <img src="img/project_images/birthday_problem.png" class="img-fluid img-thumbnail">
+                    <div class="card">
+                        <img src="img/project_images/the_fisherman.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">The Fisherman</h5>
+                            <p class="card-text">
+                                A strategic fishing game where your aim is to collect all the good fish, avoiding the bad ones.
+                            </p>
+                            <button class="btn btn-primary">Github Source</button>
                         </div>
-
-                        <div class="col-sm-4 thumbnail">
-                            <h5>Wiki Searcher</h5>
-                            <img src="img/project_images/wiki_searcher.png" class="img-fluid img-thumbnail">
+                    </div>
+                </div>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="img/project_images/tic_tac_toe.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Tic Tac Toe</h5>
+                            <p class="card-text">An implementation of the classic game.</p>
+                            <button class="btn btn-primary">Github Source</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/project_images/twitch_hub.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Twitch Hub</h5>
+                            <p class="card-text">A Twitch client to keep up with your favourite Twitch streamers.</p>
+                            <button class="btn btn-primary">Github Source</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/project_images/USA_GDP.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">USA GDP Over Time</h5>
+                            <p class="card-text">
+                                A graph to show how the USA GDP changes over time. Measured per quarter.
+                            </p>
+                            <button class="btn btn-primary">Github Source</button>
                         </div>
                     </div>
                 </div>

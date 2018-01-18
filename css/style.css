@@ -12,12 +12,8 @@ html, body {
 body {
   margin-bottom: 60px; }
 
-.container {
-  color: #fff; }
-
 p {
-  color: #c8c8c8;
-  margin: auto 10% auto 10%; }
+  color: #c8c8c8; }
 
 .break {
   margin: 0;
