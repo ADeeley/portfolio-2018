@@ -1,6 +1,6 @@
-# Project Name
+# Web Developer Portfolio
 
-Description of your project.
+My portfolio, displaying some of my work.
 
 # Contributions
 
